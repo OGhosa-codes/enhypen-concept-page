@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <title>ROMANCE: UNTOLD / DARK BLOOD</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(
+          to right,
+          #ffa7c1,
+          #fff1ff,
+          #fff1ff,
+          #fff1ff,
+          #ffb2c8
+        );
+      }
+      body.dark {
+        background: linear-gradient(
+          to right,
+          #0f0b10,
+          #1a0f1c,
+          #1a0f1c,
+          #1a0f1c,
+          #0f0b10
+        );
+        color: #e6dbe3;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .header {
+        display: block;
+        margin: 40px auto 90px auto;
+        max-width: 400px;
+        width: 90%;
+        border-radius: 0;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto 50px auto;
+        background-color: #7a2e5a;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 25px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 150ms ease-in-out;
+      }
+      button:hover {
+        background-color: transparent;
+        color: #7a2e5a;
+        border: 1px solid #7a2e5a;
+      }
+
+      .container {
+        margin: 0 auto 30px auto;
+        padding: 30px;
+        max-width: 700px;
+        background: linear-gradient(to top, pink, #fcede8);
+        box-shadow: 10px 50px 90px #ffb2c8;
+        border-radius: 30px;
+        color: #7a2e5a;
+      }
+      h1 {
+        text-align: center;
+        margin: 30px 0 30px 0;
+      }
+      h2 {
+        text-align: center;
+        text-decoration: underline;
+        margin: 30px 0 30px 0;
+        font-size: 25px;
+      }
+      p {
+        text-align: center;
+        line-height: 25px;
+      }
+      .main {
+        display: block;
+        margin: 50px auto 60px auto;
+        border-radius: 30px;
+        width: 300px;
+        transition: all 250ms ease-in-out;
+      }
+
+      .photos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+      }
+      .photos img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 15px;
+        transition: all 250ms ease-in-out;
+      }
+
+      .main:hover {
+        width: auto;
+        max-width: 90%;
+        height: auto;
+        transform: scale(1.05) translateY(-5px);
+        box-shadow: 0 25px 50px rgba(122, 46, 90, 0.35);
+      }
+
+      .photos img:hover {
+        height: auto;
+        object-fit: contain;
+        transform: scale(1.05) translateY(-5px);
+        box-shadow: 0 15px 30px rgba(122, 46, 90, 0.3);
+      }
+
+      body.dark {
+        background: linear-gradient(
+          to right,
+          #0f0b10,
+          #1a0f1c,
+          #1a0f1c,
+          #1a0f1c,
+          #0f0b10
+        );
+        color: #e6dbe3;
+      }
+
+      body.dark .container {
+        background: transparent;
+        box-shadow: 2px 100px 100px #5c1e11;
+        border-radius: 20px;
+        padding: 40px;
+        background: linear-gradient(
+          to bottom,
+          #272e38,
+          #22111b,
+          #22111b,
+          #5c1e11
+        );
+      }
+
+      body.dark h1,
+      body.dark h2,
+      body.dark p,
+      body.dark footer {
+        color: #e6dbe3;
+      }
+      footer {
+        text-align: center;
+        color: #7a2e5a;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      class="header"
+      id="headerImage"
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/676/original/romance_5.jpg?1766176167"
+      alt=""
+    />
+
+    <button id="themeButton">Dark Theme</button>
+    <div class="container">
+      <h1 id="mainHeading">
+        ROMANCE: UNTOLD reflects youth,growth,and honest feelings 💗
+      </h1>
+      <h2>ENHYPEN</h2>
+      <p>
+        Enhypen is a K-pop group formed through I-LAND, known for music that
+        tells stories about youth,growth,and emotion.Their name represents
+        connection,and their albums often explore different eras and
+        concepts,allowing fans to grow alongside them through each stage of
+        their journey.
+      </p>
+
+      <h2>CONCEPT PHOTOS</h2>
+
+      <img
+        id="mainImage"
+        class="main"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/672/original/romanc_2.jpeg?1766176117"
+        alt=""
+      />
+      <div class="photos">
+        <img
+          id="pic1"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/671/original/romance_1.jpeg?1766176100"
+          alt=""
+        />
+        <img
+          id="pic2"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/673/original/romance_3.jpg?1766176127"
+          alt=""
+        />
+        <img
+          id="pic3"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/674/original/romance_2.jpeg?1766176143"
+          alt=""
+        />
+        <img
+          id="pic4"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/675/original/romance_4.jpg?1766176153"
+          alt=""
+        />
+      </div>
+      <p>
+        Click to listen to
+        <a
+          id="listenLink"
+          href="https://open.spotify.com/album/05I8FltCMnGa3kE38mpOkL?si=ZBiEFYJ8Q--bdlRmlV1O9g"
+          target="_blank"
+          >ROMANCE:UNTOLD
+        </a>
+        on Spotify
+      </p>
+    </div>
+    <a href="https://kprofiles.com/enhypen-members-profile/" target="_blank">
+      <button>Explore Enhypen</button></a
+    >
+    <footer>
+      This is a fan-made educational project. I do not own any images, music, or
+      trademarks used. All rights belong to their respective owners. <br />
+      A.K.
+    </footer>
+    <script>
+      var mainImage = document.getElementById("mainImage");
+      var pic1 = document.getElementById("pic1");
+      var pic2 = document.getElementById("pic2");
+      var pic3 = document.getElementById("pic3");
+      var pic4 = document.getElementById("pic4");
+      var mainHeading = document.getElementById("mainHeading");
+      var headerImage = document.getElementById("headerImage");
+      var themeButton = document.getElementById("themeButton");
+      var listenLink = document.getElementById("listenLink");
+
+      var darkImages = [];
+
+      function preloadDarkImages() {
+        darkImages = [
+          "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/708/original/cover_dark.jpg",
+          "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/709/original/dark_blood_cover.jpg",
+          "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/710/original/first.jpg",
+          "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/711/original/second.jpg",
+          "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/712/original/fourth.jpg",
+          "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/713/original/fifth.jpg",
+        ];
+
+        darkImages.forEach(function (src) {
+          var img = new Image();
+          img.src = src;
+        });
+      }
+
+      preloadDarkImages();
+
+      function toggleTheme() {
+        if (!document.body.classList.contains("dark")) {
+          //  DARK THEME
+          document.body.classList.add("dark");
+
+          headerImage.src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/708/original/cover_dark.jpg?1766263864";
+          mainImage.src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/709/original/dark_blood_cover.jpg?1766263880";
+          pic1.src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/710/original/first.jpg?1766263891";
+          pic2.src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/712/original/fourth.jpg?1766272688";
+          pic3.src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/711/original/second.jpg?1766263901";
+          pic4.src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/713/original/fifth.jpg?1766272719";
+
+          mainHeading.textContent =
+            "DARK BLOOD: A high-fantasy, gothic narrative centered on Fate, Arrogance, and Ultimate Sacrifice 🩸🖤";
+
+          listenLink.textContent = "DARK BLOOD";
+          listenLink.href =
+            "https://open.spotify.com/album/7q65W5gVANjh1j1KXLeU0f?si=Ds2_B9uLRNy6cZZChuQ89A";
+
+          themeButton.textContent = "Light Theme";
+        } else {
+          // LIGHT THEME
+          document.body.classList.remove("dark");
+
+          headerImage.src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/676/original/romance_5.jpg?1766176167";
+          mainImage.src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/672/original/romanc_2.jpeg?1766176117";
+          pic1.src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/671/original/romance_1.jpeg?1766176100";
+          pic2.src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/673/original/romance_3.jpg?1766176127";
+          pic3.src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/674/original/romance_2.jpeg?1766176143";
+          pic4.src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/675/original/romance_4.jpg?1766176153";
+
+          mainHeading.textContent =
+            "ROMANCE: UNTOLD reflects youth, growth, and honest feelings 💗";
+
+          listenLink.textContent = "ROMANCE: UNTOLD";
+          listenLink.href =
+            "https://open.spotify.com/album/05I8FltCMnGa3kE38mpOkL?si=UkskUO30RVCml3J2F7jWWA";
+
+          themeButton.textContent = "Dark Theme";
+        }
+      }
+
+      themeButton.addEventListener("click", toggleTheme);
+    </script>
+  </body>
+</html>
